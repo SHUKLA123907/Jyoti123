@@ -1,0 +1,18 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "MkRJ8mU030g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\susha\\OneDrive\\Documents\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\SchoolManagementWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\susha\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+=======
+  "dgSpecHash": "Dn7F7cZzUdM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Sahil Shaikh\\SchoolManagementSystemUsingDotNetCoreAndWebAPI\\SchoolManagementWebApp\\SchoolManagementWebApp\\SchoolManagementWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+>>>>>>> bec1b9bce69fb7d69e450f47a7a0077e3ebe1a80
+  ],
+  "logs": []
+}

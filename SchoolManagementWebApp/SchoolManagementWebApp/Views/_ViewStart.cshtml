@@ -1,0 +1,26 @@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@if(HttpContextAccessor.HttpContext.Session.GetString("SystemAdmin")!= null)
+{
+    Layout = "SystemAdminLayout";
+}else if(HttpContextAccessor.HttpContext.Session.GetString("Administrator")!=null)
+{
+    Layout = "AdministratorLayout";
+}
+else if (HttpContextAccessor.HttpContext.Session.GetString("Student") != null)
+{
+    Layout = "StudentLayout";
+}
+else if(HttpContextAccessor.HttpContext.Session.GetString("Teacher")!= null)
+{
+    Layout = "TeacherLayout";
+}
+else if(HttpContextAccessor.HttpContext.Session.GetString("Librarian")!=null)
+{
+    Layout = "LibrarianLayout";
+}
+else
+{
+    Layout = "_Layout";
+}
+
+
